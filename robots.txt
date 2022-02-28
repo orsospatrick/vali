@@ -1,0 +1,3 @@
+Sitemap: https://valitransportpersoane.com/sitemap.xml
+User-Agent: *
+Allow: /
