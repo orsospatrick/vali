@@ -140,6 +140,7 @@ background-position: center, center;">
     <section style="margin-top: 15%;" id="features" class="features_area pt-100 pb-130">
         <div class="container">
             <h2 class="sub_title"><span>De la adresa la adresa</span></h2>
+             <a style="margin-top: 20px;margin-bottom: 20px;" href="tel:+40773701902" class="main-btn">REZERVARE +40773701902</a>
             <p>Efectuam saptamanal, uneori zilnic transport cu plecari din Romania catre Austria,Germania si retur. Asiguram conditii sigure, confort si siguranta maxima. Detinem microbuze moderne, fiabile si confortabile. </p>
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -475,7 +476,34 @@ background-position: center, center;">
     
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
-    
+     <script type="text/javascript">
+    (function () {
+        var options = {
+            call: "+40773701902", // Call phone number
+            call_to_action: "Telefon", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+    <!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+40773701902", // WhatsApp number
+            call_to_action: "WhatsApp!", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
 </body>
 
 </html>
